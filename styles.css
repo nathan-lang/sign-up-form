@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f5f5f5;
+}
+
+.page .bg .wallpaper {
+  height: 100vh;
+  width: auto;
+  position: fixed;
+}
+
+.page .bg .logo {
+  background: transparent;
+  font-size: 64px;
+  position: fixed;
+  top: 3rem;
+  left: 1rem;
+  text-transform: lowercase;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+.page .form-area .heading {
+  background: transparent;
+  left: 40vw;
+  top: 70px;
+  width: 54vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px 50px 50px;
+  text-transform: lowercase;
+}
+
+.page .form-area .sign-up {
+  position: fixed;
+  background: white;
+  top: 250px;
+  left: 40vw;
+  width: 60vw;
+  height: 22vw;
+  box-shadow: 5px 5px 5px #c2bcbc;
+  padding: 20px;
+}
+
+.page .form-area .sign-up h2 {
+  background: white;
+}
+
+.page .form-area .sign-up .details {
+  background: white;
+  padding: 20px 20px 0px 0px;
+  display: flex;
+}
+
+.page .form-area .sign-up .details label,
+.page .form-area .sign-up .details input {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.ln {
+  position: absolute;
+  left: 450px;
+}
+
+#first_name {
+  width: 300px;
+}
+
+#last_name {
+  width: 300px;
+}
+
+#first_name:invalid {
+  border-color: red;
+}
+
+#last_name:invalid {
+  border-color: red;
+}
+
+.em {
+  position: absolute;
+  top: 135px;
+}
+
+#email {
+  width: 300px;
+}
+
+#email:invalid {
+  border-color: red;
+}
+
+.pn {
+  position: absolute;
+  top: 135px;
+  left: 450px;
+}
+
+#phone_number {
+  width: 300px;
+}
+
+#phone_number:invalid {
+  border-color: red;
+}
+
+.pw {
+  position: absolute;
+  top: 200px;
+}
+
+#password {
+  width: 300px;
+}
+
+.cpw {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
+
+#confirm {
+  width: 300px;
+}
+
+#sign-in {
+  position: absolute;
+  top: 280px;
+}
+
+.log-in-area {
+  position: fixed;
+  top: 90vh;
+  left: 40vw;
+}

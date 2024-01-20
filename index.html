@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script src="confirm.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="bg">
+        <!-- Image by Susan Wilkinson-->
+        <img
+          class="wallpaper"
+          src="https://images.unsplash.com/photo-1613087088715-4b613e9b4d68?q=80&w=2172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <strong class="logo">Odin Beauty</strong>
+      </div>
+      <div class="form-area">
+        <strong class="heading"
+          >Hello and welcome to Odin Beauty! Take a look at our products and if
+          you're new, sign up now!
+        </strong>
+        <div class="sign-up">
+          <h2>Sign Up!</h2>
+          <form class="details" action="javascript:getDetails()" method="get">
+            <div class="fn">
+              <label for="first_name">First Name</label>
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder="e.g. John"
+                required
+              />
+            </div>
+            <div class="ln">
+              <label for="last_name">Last Name</label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="e.g. Doe"
+                required
+              />
+            </div>
+            <div class="em">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="e.g. johndoe@odinbeauty.com"
+                required
+              />
+            </div>
+            <div class="pn">
+              <label for="phone_number">Phone Number</label>
+              <input
+                type="tel"
+                id="phone_number"
+                name="phone_number"
+                pattern="[+]{1}[0-9]{11,14}"
+                placeholder="e.g. +11234567890"
+                required
+              />
+            </div>
+            <div class="pw">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="cpw">
+              <label for="confirm">Confirm Password</label>
+              <input type="password" id="confirm" required />
+            </div>
+            <button type="submit" id="sign-in">Let's Begin!</button>
+          </form>
+        </div>
+        <div class="log-in-area">
+          Already have an account? <a href="#">Log In!</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

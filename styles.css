@@ -143,3 +143,12 @@
   top: 90vh;
   left: 40vw;
 }
+
+/*
+.heading::before {
+  content: " ✨";
+}
+
+.heading::after {
+  content: " ✨";
+}
